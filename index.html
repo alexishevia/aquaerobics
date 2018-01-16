@@ -3,26 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <title>Aqua Aerobics</title>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
   </head>
   <body>
     <p>Ejercicios para hoy:</p>
-    <ol>
-      <li>
-        <div>Core Rotation</div>
-        <video width="320" height="240" controls>
-          <source src="./videos/1.core_rotation.mp4" type="video/mp4">
-        </video>
-      </li>
-    </ol>
+    <ol id="exercises"/>
+
+    <script src="./index.js"></script>
   </body>
 </html>
-
-<!-- To add a new video:
-  1. download youtube video using https://y2mate.com/
-  2. open the video in openshot video editor and cut the part you want
-  3. export the video using the following settings:
-    - Profile: All Formats
-    - Target: MP4 (h.264)
-    - Video Profile: Mobile 360p
-    - Quality: High
--->
