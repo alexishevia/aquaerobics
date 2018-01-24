@@ -109,6 +109,18 @@
       originalVideo: 'https://www.youtube.com/watch?v=nQTXauPQ2ME',
       type: 'video/mp4',
       src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/aperturas_laterales.mp4'
+    },
+    {
+      name: 'Subir Rodillas',
+      originalVideo: 'https://www.youtube.com/watch?v=nQTXauPQ2ME',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/subir_rodillas.mp4'
+    },
+    {
+      name: 'Elevaciones Frontales',
+      originalVideo: 'https://www.youtube.com/watch?v=nQTXauPQ2ME',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/elevaciones_frontales.mp4'
     }
   ];
 
