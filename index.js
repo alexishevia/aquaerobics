@@ -121,6 +121,24 @@
       originalVideo: 'https://www.youtube.com/watch?v=nQTXauPQ2ME',
       type: 'video/mp4',
       src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/elevaciones_frontales.mp4'
+    },
+    {
+      name: 'Subir Ambas Rodillas',
+      originalVideo: 'https://www.youtube.com/watch?v=nQTXauPQ2ME',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/subir_ambas_rodillas.mp4'
+    },
+    {
+      name: 'Brazos con Rodillas',
+      originalVideo: 'https://www.youtube.com/watch?v=nQTXauPQ2ME',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/brazos_con_rodillas.mp4'
+    },
+    {
+      name: 'Push-up On Wall',
+      originalVideo: 'https://www.youtube.com/watch?v=qBy0xZPoWzM',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/push_up_on_wall.mp4'
     }
   ];
 
@@ -156,7 +174,10 @@
   function addVideo(exercise) {
     $('#exercises').append([
       '<li>',
-      '<div>' + exercise.name + '</div>',
+      '<div>',
+      '<a href="' + exercise.originalVideo + '"',
+      'target="_blank">' + exercise.name + '</a>',
+      '</div>',
       '<video width="320" height="240" controls',
       'type="' + exercise.type + '"',
       'src="' + exercise.src + '"',
