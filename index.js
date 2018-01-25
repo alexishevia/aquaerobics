@@ -139,6 +139,30 @@
       originalVideo: 'https://www.youtube.com/watch?v=qBy0xZPoWzM',
       type: 'video/mp4',
       src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/push_up_on_wall.mp4'
+    },
+    {
+      name: 'Hurdle Jump',
+      originalVideo: 'https://www.youtube.com/watch?v=qBy0xZPoWzM',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/hurdle_jump.mp4'
+    },
+    {
+      name: 'Jump & Twist',
+      originalVideo: 'https://www.youtube.com/watch?v=hLntTqJ0WFg',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/jump_twist.mp4'
+    },
+    {
+      name: 'Straight Leg Kick',
+      originalVideo: 'https://www.youtube.com/watch?v=hLntTqJ0WFg',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/straight_leg_kick.mp4'
+    },
+    {
+      name: 'Karaoke',
+      originalVideo: 'https://www.youtube.com/watch?v=hLntTqJ0WFg',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/karaoke.mp4'
     }
   ];
 
