@@ -163,6 +163,54 @@
       originalVideo: 'https://www.youtube.com/watch?v=hLntTqJ0WFg',
       type: 'video/mp4',
       src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/karaoke.mp4'
+    },
+    {
+      name: 'Seated Knee Tuck',
+      originalVideo: 'https://www.youtube.com/watch?v=-7mbIDH-QO4',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/seated_knee_tuck.mp4'
+    },
+    {
+      name: 'Twist & Kick',
+      originalVideo: 'https://www.youtube.com/watch?v=x0BK_DnHsso',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/twist_kick.mp4'
+    },
+    {
+      name: 'Jump Squat with Toe Touch',
+      originalVideo: 'https://www.youtube.com/watch?v=x0BK_DnHsso',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/jump_squat_toe_touch.mp4'
+    },
+    {
+      name: 'Pistol Squat',
+      originalVideo: 'https://www.youtube.com/watch?v=x0BK_DnHsso',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/pistol_squat.mp4'
+    },
+    {
+      name: 'Ballerina Squat Abductions',
+      originalVideo: 'https://www.youtube.com/watch?v=x0BK_DnHsso',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/ballerina_squat_abductions.mp4'
+    },
+    {
+      name: 'One Leg Standing Front & Back Extensions',
+      originalVideo: 'https://www.youtube.com/watch?v=x0BK_DnHsso',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/one_leg_front_back_extensions.mp4'
+    },
+    {
+      name: 'One Leg Ballerina Front to Side Extensions',
+      originalVideo: 'https://www.youtube.com/watch?v=x0BK_DnHsso',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/one_leg_front_side_extensions.mp4'
+    },
+    {
+      name: 'Standing Kickbacks',
+      originalVideo: 'https://www.youtube.com/watch?v=x0BK_DnHsso',
+      type: 'video/mp4',
+      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/standing_kickbacks.mp4'
     }
   ];
 
