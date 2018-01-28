@@ -1,8 +1,7 @@
 # Aqua Aerobics Workout Generator
 A simple app that will randomly generate an aqua aerobic workout for you.
 
-Just visit https://keen-cori-69b1a9.netlify.com and 5 random exercises will be
-picked for you.
+Just visit https://aquaerobics.alexishevia.com and click on `Generate Workout`.
 
 ## Getting Started
 This is a simple static site, just start up a local webserver pointing to this
@@ -24,5 +23,3 @@ ie: `python -m SimpleHTTPServer`
 ## Deployment
 This app is currently deployed to Netlify using a bitbucket hook (whenever a
 new commit is pushed to the bitbucket repo, Netlify will re-deploy the app)
-
-URL: https://keen-cori-69b1a9.netlify.com
