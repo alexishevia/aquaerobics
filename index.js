@@ -1,6 +1,4 @@
 (function app($) {
-  var amountExercisesToDisplay = 5;
-
   var exercises = [
     {
       name: 'Core Rotation',
@@ -292,9 +290,6 @@
   /*
    * The exercise ids are supposed to be sent as a comma separated list in the
    * `ids` query parameter.
-   *
-   * If they are not sent, a random list will be generated and the user will
-   * be redirected to a page with the `ids` query parameter set to these values.
    */
   var indices = (getURLParam('ids') || '')
     .split(',')
@@ -306,14 +301,19 @@
     });
 
   if (indices.length > 0) {
+    $('#generateWorkout').find('input[type=number]').val(indices.length);
     indices.forEach(function addExerciseToPage(i) {
       var exercise = exercises[i];
       return exercise ? addVideo(exercise) : null;
     });
-    return;
   }
 
-  // no indices found, generate random values and redirect user
-  var ids = randomIntegers(amountExercisesToDisplay, exercises.length);
-  window.location.replace('/?ids=' + ids.join(','));
+  $('#generateWorkout').on('submit', function generateWorkout(evt) {
+    evt.preventDefault();
+    var inputValue = $(evt.currentTarget).find('input[type=number]').val();
+    var amount = parseInt(inputValue, 10);
+    amount = isNaN(amount) ? 5 : amount;
+    var ids = randomIntegers(amount, exercises.length);
+    window.location.replace('/?ids=' + ids.join(','));
+  });
 }(window.jQuery));

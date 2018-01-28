@@ -7,10 +7,23 @@
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous"></script>
+    <style>
+      ol, li {
+        margin-top: 2rem;
+      }
+      video {
+        margin-top: 0.5rem;
+      }
+    </style>
   </head>
   <body>
-    <p>Ejercicios para hoy:</p>
-    <ol id="exercises"/>
+    <h1>Aqua Aerobics</h1>
+    <p>Simple Aqua Aerobics Workout Generator.</p>
+    <form id="generateWorkout">
+      <input type="number" value="5" />
+      <input type="submit" value="Generate Workout" />
+    </form>
+    <ol id="exercises" />
     <script src="./index.js"></script>
   </body>
 </html>
