@@ -175,18 +175,6 @@
       src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/jump_squat_toe_touch.mp4'
     },
     {
-      name: 'Pistol Squat',
-      originalVideo: 'https://www.youtube.com/watch?v=x0BK_DnHsso',
-      type: 'video/mp4',
-      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/pistol_squat.mp4'
-    },
-    {
-      name: 'Ballerina Squat Abductions',
-      originalVideo: 'https://www.youtube.com/watch?v=x0BK_DnHsso',
-      type: 'video/mp4',
-      src: 'https://s3-sa-east-1.amazonaws.com/aquaerobics/ballerina_squat_abductions.mp4'
-    },
-    {
       name: 'One Leg Standing Front & Back Extensions',
       originalVideo: 'https://www.youtube.com/watch?v=x0BK_DnHsso',
       type: 'video/mp4',
