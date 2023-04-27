@@ -1,7 +1,22 @@
+body {
+   background-color: rgb(233, 233, 233);  
+   background-image: linear-gradient(rgb(227, 243, 242), rgb(142, 192, 221));
+    height: 100vh;
+  }
+
+
+
 h1 {
-    color: blue;
+    color: rgb(36, 72, 231);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    text-align: center;
 }
 
-body {
-    background-color: rgb(214, 237, 245);
-  }
+.paragraph1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+
+}
