@@ -18,5 +18,13 @@ h1 {
     font-size: 20px;
     text-align: center;
 
+}
 
+.yellow-div {
+  background-color:rgb(148, 187, 238);
+  width: 500px;
+  padding: 5px;
+  border: 3px solid rgb(36, 72, 231);
+  margin-left: 660px
+  
 }
