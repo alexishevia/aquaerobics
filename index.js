@@ -225,16 +225,20 @@
    */
   function addVideo(exercise) {
     $('#exercises').append([
-      '<li>',
-      '<div>',
-      '<a href="' + exercise.originalVideo + '"',
-      'target="_blank">' + exercise.name + '</a>',
+      '<div class="col-lg-4 col-md-8 col-sm-10">',
+        '<div class="single-feature">',
+          '<video width="320" height="240" controls',
+          'type="' + exercise.type + '"',
+          'src="' + exercise.src + '"',
+          '/>',
+          '<div class="content">',
+            '<h3>',
+              '<a href="' + exercise.originalVideo + '"',
+              'target="_blank">' + exercise.name + '</a>',
+            '</h3>',
+          '</div>',
+        '</div>',
       '</div>',
-      '<video width="320" height="240" controls',
-      'type="' + exercise.type + '"',
-      'src="' + exercise.src + '"',
-      '/>',
-      '</li>'
     ].join(' '));
   }
 

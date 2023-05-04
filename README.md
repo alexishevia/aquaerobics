@@ -7,7 +7,7 @@ Just visit https://aquaerobics.alexishevia.com and click on `Generate Workout`.
 This is a simple static site, just start up a local webserver pointing to this
 directory and you're ready.
 
-ie: `python -m SimpleHTTPServer`
+ie: `python3 -m http.server`
 
 ## How to add a new video
 1. download a youtube video using https://y2mate.com/
@@ -21,5 +21,5 @@ ie: `python -m SimpleHTTPServer`
 5. add the video to the `exercises` array in index.js
 
 ## Deployment
-This app is currently deployed to Netlify using a bitbucket hook (whenever a
-new commit is pushed to the bitbucket repo, Netlify will re-deploy the app)
+This app is currently deployed to Netlify using a Github hook (whenever a
+new commit is pushed to the Github repo, Netlify will re-deploy the app)
